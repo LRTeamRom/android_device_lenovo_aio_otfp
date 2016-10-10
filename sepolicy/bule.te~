@@ -1,0 +1,7 @@
+# bule-specific policies
+
+type bule_exec, exec_type, file_type;
+type bule, domain;
+
+permissive bule;
+init_daemon_domain(bule)
